@@ -1,0 +1,53 @@
+html {
+    color: black;
+}
+
+.top {
+    display: flex;
+    justify-content: start;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-bar {
+    display: flex;
+    margin-left: 10px;
+}
+
+.nav-bar-button {
+    margin: 10px;
+}
+
+.nav-bar-button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* setup-jumbotron */
+
+.jumbotron {
+    background-image: url('https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/jumbotron.png');
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron-container {
+    background-color: gray;
+}
+
+.jumbotron-title {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron-content {
+    display: flex;
+    justify-content: center;
+}
