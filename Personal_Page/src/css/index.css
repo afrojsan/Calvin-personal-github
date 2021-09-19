@@ -1,0 +1,26 @@
+header {
+    background-image: url("../img/programming-code-background.png");
+    background-size: cover;
+    height: 100vh;
+    margin: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro {
+    font-size: 22px;
+    margin: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(83, 223, 155);
+}
+
+.homePageButton {
+    margin-left: 250px;
+    width: 140px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(83, 223, 155);
+    font-size: 16px;
+}

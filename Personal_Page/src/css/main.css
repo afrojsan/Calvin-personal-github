@@ -1,0 +1,123 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0 -0.5px;
+}
+
+/* navBar setup */
+.navBar {
+    height: 54px;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.navBar img {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+/* main-title setup */
+.title{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+.titleText {
+    color: white;
+}
+
+/* main-aboutMe setup */
+.aboutMe{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(254, 244, 236);
+}
+
+.aboutMePic{
+    width: 30%;
+    text-align: center;
+}
+
+.aboutMePic img {
+    width:  170px;
+    height: 265px;
+    box-shadow: 12px 12px 2px 1px rgb(170, 155, 154);
+}
+
+.aboutMeText{
+    width: 67%;
+    text-align: start;
+    font-size: 18px;
+    color: rgb(83, 223, 155);
+}
+
+/* main-project setup */
+.projectTitleContainer{
+    background-color: rgb(240, 240, 240);
+}
+
+.projectTitle{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 28px;
+}
+
+.personalProject{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    background-color: rgb(240, 240, 240);
+}
+
+.project1,
+.project2 {
+    text-align: center;
+}
+
+.project1 img,
+.project2 img {
+    width: 400px;
+    height: 200px;
+}
+
+
+.project1 button,
+.project2 button{
+    margin: 10px 5px;
+    border-radius: 20px;
+    width: 90px;
+    font-size: 16px;
+}
+
+/* footer setup */
+.contect {
+    border-top: 0.5px solid gray;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contectContainer {
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.icon {
+    margin: 5px 0px;
+}
+
+.contect img {
+    width: 20px;
+}
