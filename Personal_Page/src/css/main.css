@@ -38,7 +38,7 @@ body {
     align-items: center;
     height: 600px;
     width: 100%;
-    background-color: rgb(254, 244, 236);
+    background-color: rgb(240, 240, 240);
 }
 
 .aboutMePic{
@@ -61,7 +61,7 @@ body {
 
 /* main-project setup */
 .projectTitleContainer{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(183, 236, 250);
 }
 
 .projectTitle{
@@ -76,7 +76,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(183, 236, 250);
 }
 
 .project1,
